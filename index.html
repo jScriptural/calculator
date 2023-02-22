@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=0">
+    <title>Calculator Design With CSS/HTML</title>
+   
+     <link rel="stylesheet" href="cal-style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+      <h1>&#9439;&#9432;&#9434;&#9432;&#9437;<sup>&trade;</sup></h1>
+      <h2>johnscriptural.dev</h2>
+      </header>
+      <div class="display">
+      	<div class="result"></div>
+      	<div class="exp"></div>
+      	</div>
+      <div class="digits-operators">
+        <button data-number = 0 class="digits zero">0</button>
+        <button data-number = 1 class="digits one">1</button>
+        <button data-number = 2 class="digits two">2</button>
+        <button data-number = 3 class="digits three">3</button>
+        <button data-number = 4 class="digits four">4</button>
+        <button data-number = 5 class="digits five">5</button>
+        <button data-number = 6 class="digits six">6</button>
+        <button data-number = 7 class="digits seven">7</button>
+        <button data-number = 8 class="digits eight">8</button>
+        <button data-number = 9 class="digits nine">9</button>
+        <button data-operate = "+" data-operator="+" class="operators addition">&plus;</button>
+        <button data-operate ="x" data-operator="*" class="operators multiplication">&times;</button>
+        <button data-operate="&divide;" data-operator="/"  class="operators division">&divide;</button>
+        <button data-operate = "-" data-operator="-" class="operators substraction">&minus;</button>
+        <button data-operate= "&#127260;" data-operator="%" class="operators modulus">Mod</button>
+        <button data-operate = "π" data-operator="π" class="operators percentage">&#960;</button>
+        <button data-operate = "^" data-operator="**" class="operators power">x<sup>y</sup></sup></button>
+        <button data-operate = "sin(" data-operator="sin(" class="operators sine">sin</button>
+        <button data-operate = "cos(" data-operator="cos(" class="operators cosine">cos</button>
+        <button data-operate = "tan(" data-operator="tan(" class="operators tangent">tan</button>
+        <button data-operate = "(" data-operator="  (" class="operators open-bracket">&#40;</button>
+        <button data-operate = ")" data-operator="  )" class="operators close-bracket">&#41;</button>
+        <button class="operators cancel">C</button>
+        <button class="operators delete">Del</button>
+        <button class="operators equal">&#61;</button>
+        <button data-operate = "." data-operator="." class="operators point">&period;</button>
+      </div>
+    </div>
+     <script src="cal.js"></script>
+  </body>
+  </html>
