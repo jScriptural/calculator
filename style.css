@@ -255,3 +255,12 @@
 		font-size:10px;
 	}
 }
+
+.highlight-for-digits{
+	background: gray;
+	color: #fff;
+}
+.highlight-for-operators {
+	background: orange;
+	color: #fff;
+}
