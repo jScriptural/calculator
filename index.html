@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=0">
     <title>Calculator Design With CSS/HTML</title>
-   
-     <link rel="stylesheet" href="cal-style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+	    <i class="material-icons">menu</i>
+    </nav>    
     <div class="container">
       <header>
       <h1>&#9439;&#9432;&#9434;&#9432;&#9437;<sup>&trade;</sup></h1>
-      <h2>johnscriptural.dev</h2>
+      <h2>Jscriptural.dev</h2>
       </header>
       <div class="display">
       	<div class="result"></div>
@@ -34,7 +38,7 @@
         <button data-operate = "-" data-operator="-" class="operators substraction">&minus;</button>
         <button data-operate= "&#127260;" data-operator="%" class="operators modulus">Mod</button>
         <button data-operate = "π" data-operator="π" class="operators percentage">&#960;</button>
-        <button data-operate = "^" data-operator="**" class="operators power">x<sup>y</sup></sup></button>
+        <button data-operate = "^" data-operator="**" class="operators power">x<sup>y</sup></button>
         <button data-operate = "sin(" data-operator="sin(" class="operators sine">sin</button>
         <button data-operate = "cos(" data-operator="cos(" class="operators cosine">cos</button>
         <button data-operate = "tan(" data-operator="tan(" class="operators tangent">tan</button>
@@ -46,6 +50,6 @@
         <button data-operate = "." data-operator="." class="operators point">&period;</button>
       </div>
     </div>
-     <script src="cal.js"></script>
+     <script src="main.js"></script>
   </body>
   </html>
